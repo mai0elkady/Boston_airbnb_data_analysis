@@ -5,6 +5,7 @@ Airbnb had made it easier for people to rent their houses and apartements to tou
 1. Which neighborhoods have the highest and lowest prices and why?
 2. Can we make accurate price predictions using our data?
 3. Which of the data's features affect the price the most?
+Answering those questions can provide an insights for new Airbnb hosts who wish to start their Airbnb hosting journay, by providing them with information about the factors affecting a listing price, or how much they should charge for their new listing.
 
 ## Data
 To answer these questions, I use the "listings.csv" (which is uploaded here)
@@ -16,9 +17,10 @@ Some data preprocessing was necessary to utilize this available data in the best
 In trying to answer question 2, I used 2 models in my analysis, first a linear regression model, then a ridge regression model (with different regularization paramters). Both Models gave very similar accuracy results.
 
 ## Results
-1. I was able to establish a sense of the most expensive and least expensive neighbourhoods around Boston, and the property types they have to offer.
-2. For the prediction task, I was able to achieve an R2 score of 0.675 on average.
-3. There are other factors that affect the listing's price besides the neighbourhood, like the property type, and the type of cancelation policy,..etc.
+1. Using descriptive statistics, I was able to establish a sense of the most expensive and least expensive neighbourhoods around Boston, and the property types they have to offer.
+2. For the prediction task, I was able to achieve an R2 score of 0.675 on average using a linear regression model with dropping the samples that has missing values (as it turns out that this would lead to a better R2 score than keeping those samples and imputing by the coloumn mean)
+3. I used the linear model's coefficients to identify other factors that affect the listing's price besides the neighbourhood, like the property type, and the type of cancelation policy,..etc.
+
 You can read about the results in more details here: https://mai-elkady.medium.com/a-walk-through-bostons-airbnb-data-e4a9815173bf
 
 ## Libraries 
