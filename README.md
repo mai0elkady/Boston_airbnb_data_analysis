@@ -18,3 +18,6 @@ listings.csv - which is uploaded here
 * Download the .ipyb file and the data file
 * Use Jupyter to open the .ipyb
 * Update the "boston_airbnb_data_path" in the code to point to where your data file is
+
+## Results
+Read about the results here: https://mai-elkady.medium.com/a-walk-through-bostons-airbnb-data-e4a9815173bf
