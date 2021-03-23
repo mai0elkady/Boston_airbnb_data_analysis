@@ -5,6 +5,7 @@ Airbnb had made it easier for people to rent their houses and apartements to tou
 1. Which neighborhoods have the highest and lowest prices and why?
 2. Can we make accurate price predictions using our data?
 3. Which of the data's features affect the price the most?
+
 Answering those questions can provide an insights for new Airbnb hosts who wish to start their Airbnb hosting journay, by providing them with information about the factors affecting a listing price, or how much they should charge for their new listing.
 
 ## Data
